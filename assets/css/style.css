@@ -1,0 +1,103 @@
+.btn {
+  background-color: darkgreen;
+  border: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.btn:hover {
+  background-color: #8f1111;
+  border: none;
+}
+
+#logIn {
+  height: 100vh;
+  background-image: url(/assets/img/balanced_diet_620x400-ss-no-exp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logIn .logInForm {
+  margin-top: 200px;
+}
+
+#logIn .logInForm input {
+  width: 30%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+#logIn .logInForm .button button {
+  width: 100px;
+  height: 50px;
+  background-color: darkgreen;
+}
+
+#intro {
+  display: none;
+  height: 100vh;
+  background-image: url(/assets/img/mevsim-sebze-ve-meyveleri.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#intro .name {
+  border: 4px solid  white;
+  background-color: white;
+}
+
+#intro .icon i {
+  font-size: 40px;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#intro .icon i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#intro .card {
+  margin-top: 50px;
+  border: 18px solid white;
+}
+
+#intro .card .image {
+  overflow: hidden;
+}
+
+#intro .card .image .card-img-top {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#intro .card .image .card-img-top:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#basket {
+  display: none;
+  height: 100vh;
+  background-image: url(/assets/img/best-pizza-dough-recipe.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#basket .myBasket {
+  border: 4px solid  white;
+  background-color: white;
+}
+
+#basket .myProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
